@@ -11,6 +11,18 @@ Template.task.helpers({
   },
 });
  
+if (Meteor.isClient) {
+    Template.body.onRendered(function(){
+    // sort: true
+        Sortable.create(tasksList, {
+            group: "sorting",
+            sort: true
+        });
+
+    
+    });
+
+} 
  
 Template.task.events({
   'click .toggle-checked'() {
