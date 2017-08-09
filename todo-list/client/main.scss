@@ -22,11 +22,11 @@ h1 {
     height: 100%;
     margin-left:auto;
     margin-right:auto;
-    };
+    }
 header {
-        font-family: 'Hind';
-        color:#fff;
-        letter-spacing: .02em;
+    font-family: 'Hind';
+    color:#fff;
+    letter-spacing: .02em;
     background: linear-gradient(to bottom, $tertiary-color, $quinary-color 60%, $quaternary-color) !important;
 }
 input {
@@ -67,4 +67,20 @@ li:nth-child(odd) {
 }
 .text {
     font-weight: 300;
+}
+
+@media only screen and (min-width: 600px) {
+.container {
+    width: 75%;
+}
+}
+@media only screen and (min-width: 765px) {
+.container {
+    width: 66.66667%;
+}
+}
+@media only screen and (min-width: 1100px) {
+.container {
+    width: 50%;
+}
 }
