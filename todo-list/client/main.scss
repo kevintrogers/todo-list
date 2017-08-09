@@ -64,20 +64,15 @@ li {
 }
 .toggle-private {
     border-radius: 4px;
-    
+    background: $quaternary-color;
+    border: 1px solid $tertiary-color;
+    color: #fff;
 }
 
-.toggle-private:nth-child(odd) {
-    border: 1px solid #fff;
-}
-.toggle-private:nth-child(even) {
-    border: 1px solid $primary-color;
-    
-}
 
-li:nth-child(odd) { 
+li:nth-child(even) { 
     background: $tertiary-color;
-    color:#fff;
+    
 }
 .name {
     font-style: italic;
