@@ -7,6 +7,7 @@ $quaternary-color: #143A40;
 $quinary-color: #47D0E5;
 
 
+
 body {
     background: $primary-color;
     font-family: 'Hind';
@@ -54,6 +55,23 @@ li {
     padding: 1.5%;
     width: 97%;
     background: #fff;
+    
+}
+
+.delete {
+    background:transparent;
+    border:none;
+}
+.toggle-private {
+    border-radius: 4px;
+    
+}
+
+.toggle-private:nth-child(odd) {
+    border: 1px solid #fff;
+}
+.toggle-private:nth-child(even) {
+    border: 1px solid $primary-color;
     
 }
 
