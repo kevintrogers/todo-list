@@ -5,6 +5,7 @@ import { Tasks } from '../api/tasks.js';
  
 import './task.html';
 
+
 Template.task.helpers({
   isOwner() {
     return this.owner === Meteor.userId();
@@ -18,12 +19,13 @@ if (Meteor.isClient) {
             group: "sorting",
             sort: true
         });
-
     
-    });
+      });
+  }
+	
+        
 
-} 
- 
+
 Template.task.events({
   'click .toggle-checked'() {
     // Set the checked property to the opposite of its current value
@@ -31,6 +33,6 @@ Template.task.events({
   },
   'click .delete'() {
     Meteor.call('tasks.remove', this._id);
-  },
+  }
   
 });

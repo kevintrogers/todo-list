@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Hind|Roboto');
+
+$primary-color: #3BADBF;
+$secondary-color: #28747F;
+$tertiary-color: #4FE7FF;
+$quaternary-color: #143A40;
+$quinary-color: #47D0E5;
+
+
+body {
+    background: $primary-color;
+    font-family: 'Hind';
+    
+}
+h1 {
+    text-align:center;
+}
+.container {
+    background: #fff;
+    width: 85%;
+    height: 100%;
+    margin-left:auto;
+    margin-right:auto;
+    };
+header {
+        font-family: 'Hind';
+        color:#fff;
+        letter-spacing: .02em;
+    background: linear-gradient(to bottom, $tertiary-color, $quinary-color 60%, $quaternary-color) !important;
+}
+input {
+    font-family: 'Hind';
+}
+#tasksList {
+    list-style:none;
+    background: #fff;
+    font-family: 'Roboto';
+}
