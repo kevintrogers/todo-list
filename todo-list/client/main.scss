@@ -30,7 +30,17 @@ header {
     background: linear-gradient(to bottom, $tertiary-color, $quinary-color 60%, $quaternary-color) !important;
 }
 input {
+    padding-left: 2.5%;
     font-family: 'Hind';
+    background:transparent;
+    border:none;
+    color: #fff;
+}
+input:focus {
+    outline:none;
+}
+input::placeholder {
+    color: $tertiary-color;
 }
 ul {
     list-style:none;
