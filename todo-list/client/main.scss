@@ -30,8 +30,8 @@ header {
     letter-spacing: .02em;
     background: linear-gradient(to bottom, $tertiary-color, $quinary-color 60%, $quaternary-color) !important;
 }
-header input {
-    width:100%;
+.text-input {
+    width:95%;
 }
 input {
     padding-left: 2.5%;

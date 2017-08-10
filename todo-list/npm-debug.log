@@ -1,0 +1,286 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/ubuntu/.nvm/versions/node/v4.6.1/bin/node',
+1 verbose cli   '/home/ubuntu/.nvm/versions/node/v4.6.1/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'heroku',
+1 verbose cli   'Toolbelt' ]
+2 info using npm@2.15.9
+3 info using node@v4.6.1
+4 verbose install initial load of /home/ubuntu/workspace/todo-list/package.json
+5 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/abbrev/package.json
+6 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/ajv/package.json
+7 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/ansi-regex/package.json
+8 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/aproba/package.json
+9 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/are-we-there-yet/package.json
+10 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/asn1/package.json
+11 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/assert-plus/package.json
+12 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/asynckit/package.json
+13 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/aws-sign2/package.json
+14 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/aws4/package.json
+15 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/babel-runtime/package.json
+16 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/balanced-match/package.json
+17 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/bcrypt/package.json
+18 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/bcrypt-pbkdf/package.json
+19 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/bindings/package.json
+20 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/block-stream/package.json
+21 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/boom/package.json
+22 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/brace-expansion/package.json
+23 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/buffer-shims/package.json
+24 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/caseless/package.json
+25 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/co/package.json
+26 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/code-point-at/package.json
+27 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/combined-stream/package.json
+28 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/concat-map/package.json
+29 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/console-control-strings/package.json
+30 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/core-js/package.json
+31 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/core-util-is/package.json
+32 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/cryptiles/package.json
+33 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/dashdash/package.json
+34 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/debug/package.json
+35 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/deep-extend/package.json
+36 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/delayed-stream/package.json
+37 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/delegates/package.json
+38 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/ecc-jsbn/package.json
+39 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/extend/package.json
+40 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/extsprintf/package.json
+41 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/forever-agent/package.json
+42 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/form-data/package.json
+43 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/fs.realpath/package.json
+44 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/fstream/package.json
+45 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/fstream-ignore/package.json
+46 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/gauge/package.json
+47 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/getpass/package.json
+48 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/glob/package.json
+49 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/graceful-fs/package.json
+50 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/har-schema/package.json
+51 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/har-validator/package.json
+52 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/has-unicode/package.json
+53 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/hawk/package.json
+54 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/heroku/package.json
+55 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/hoek/package.json
+56 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/http-signature/package.json
+57 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/inflight/package.json
+58 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/inherits/package.json
+59 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/ini/package.json
+60 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/is-fullwidth-code-point/package.json
+61 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/is-typedarray/package.json
+62 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/isarray/package.json
+63 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/isstream/package.json
+64 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/jsbn/package.json
+65 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/json-schema/package.json
+66 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/json-stable-stringify/package.json
+67 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/json-stringify-safe/package.json
+68 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/jsonify/package.json
+69 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/jsprim/package.json
+70 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/materialize-css/package.json
+71 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/meteor-node-stubs/package.json
+72 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/mime-db/package.json
+73 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/mime-types/package.json
+74 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/minimatch/package.json
+75 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/minimist/package.json
+76 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/mkdirp/package.json
+77 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/mongodb/package.json
+78 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/ms/package.json
+79 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/nan/package.json
+80 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/node-pre-gyp/package.json
+81 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/nopt/package.json
+82 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/npmlog/package.json
+83 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/number-is-nan/package.json
+84 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/oauth-sign/package.json
+85 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/object-assign/package.json
+86 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/once/package.json
+87 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/path-is-absolute/package.json
+88 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/performance-now/package.json
+89 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/process-nextick-args/package.json
+90 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/punycode/package.json
+91 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/qs/package.json
+92 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/rc/package.json
+93 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/readable-stream/package.json
+94 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/regenerator-runtime/package.json
+95 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/request/package.json
+96 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/rimraf/package.json
+97 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/safe-buffer/package.json
+98 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/semver/package.json
+99 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/set-blocking/package.json
+100 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/signal-exit/package.json
+101 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/sntp/package.json
+102 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/sshpk/package.json
+103 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/string-width/package.json
+104 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/string_decoder/package.json
+105 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/stringstream/package.json
+106 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/strip-ansi/package.json
+107 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/strip-json-comments/package.json
+108 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/tar/package.json
+109 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/tar-pack/package.json
+110 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/tough-cookie/package.json
+111 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/tunnel-agent/package.json
+112 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/tweetnacl/package.json
+113 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/uid-number/package.json
+114 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/util-deprecate/package.json
+115 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/uuid/package.json
+116 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/verror/package.json
+117 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/wide-align/package.json
+118 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/wrappy/package.json
+119 info package.json bcrypt-pbkdf@1.0.1 No repository field.
+120 info package.json extsprintf@1.0.2 No license field.
+121 info package.json json-schema@0.2.3 No license field.
+122 info package.json jsonify@0.0.0 license should be a valid SPDX license expression
+123 info package.json ms@0.7.1 No license field.
+124 info package.json punycode@1.4.1 punycode is also the name of a node core module.
+125 info package.json sntp@1.0.9 No license field.
+126 info package.json string_decoder@1.0.3 string_decoder is also the name of a node core module.
+127 info package.json verror@1.3.6 No license field.
+128 info package.json heroku@0.2.0 No license field.
+129 verbose readDependencies loading dependencies from /home/ubuntu/workspace/todo-list/package.json
+130 verbose install heroku is installed as 0.2.0
+131 silly cache add args [ 'heroku', null ]
+132 verbose cache add spec heroku
+133 silly cache add args [ 'Toolbelt', null ]
+134 verbose cache add spec Toolbelt
+135 silly cache add parsed spec Result {
+135 silly cache add   raw: 'heroku',
+135 silly cache add   scope: null,
+135 silly cache add   name: 'heroku',
+135 silly cache add   rawSpec: '',
+135 silly cache add   spec: 'latest',
+135 silly cache add   type: 'tag' }
+136 silly addNamed heroku@latest
+137 verbose addNamed "latest" is being treated as a dist-tag for heroku
+138 info addNameTag [ 'heroku', 'latest' ]
+139 silly mapToRegistry name heroku
+140 silly mapToRegistry using default registry
+141 silly mapToRegistry registry https://registry.npmjs.org/
+142 silly mapToRegistry data Result {
+142 silly mapToRegistry   raw: 'heroku',
+142 silly mapToRegistry   scope: null,
+142 silly mapToRegistry   name: 'heroku',
+142 silly mapToRegistry   rawSpec: '',
+142 silly mapToRegistry   spec: 'latest',
+142 silly mapToRegistry   type: 'tag' }
+143 silly mapToRegistry uri https://registry.npmjs.org/heroku
+144 verbose addNameTag registry:https://registry.npmjs.org/heroku not in flight; fetching
+145 silly cache add parsed spec Result {
+145 silly cache add   raw: 'Toolbelt',
+145 silly cache add   scope: null,
+145 silly cache add   name: 'Toolbelt',
+145 silly cache add   rawSpec: '',
+145 silly cache add   spec: 'latest',
+145 silly cache add   type: 'tag' }
+146 silly addNamed Toolbelt@latest
+147 verbose addNamed "latest" is being treated as a dist-tag for Toolbelt
+148 info addNameTag [ 'Toolbelt', 'latest' ]
+149 silly mapToRegistry name Toolbelt
+150 silly mapToRegistry using default registry
+151 silly mapToRegistry registry https://registry.npmjs.org/
+152 silly mapToRegistry data Result {
+152 silly mapToRegistry   raw: 'Toolbelt',
+152 silly mapToRegistry   scope: null,
+152 silly mapToRegistry   name: 'Toolbelt',
+152 silly mapToRegistry   rawSpec: '',
+152 silly mapToRegistry   spec: 'latest',
+152 silly mapToRegistry   type: 'tag' }
+153 silly mapToRegistry uri https://registry.npmjs.org/Toolbelt
+154 verbose addNameTag registry:https://registry.npmjs.org/Toolbelt not in flight; fetching
+155 verbose request uri https://registry.npmjs.org/Toolbelt
+156 verbose request no auth needed
+157 info attempt registry request try #1 at 3:46:52 PM
+158 verbose request id 3f0b48514ce86d80
+159 http request GET https://registry.npmjs.org/Toolbelt
+160 verbose request uri https://registry.npmjs.org/heroku
+161 verbose request no auth needed
+162 info attempt registry request try #1 at 3:46:52 PM
+163 verbose etag W/"5986db2b-3a90"
+164 verbose lastModified Sun, 06 Aug 2017 09:02:35 GMT
+165 http request GET https://registry.npmjs.org/heroku
+166 http 304 https://registry.npmjs.org/heroku
+167 verbose headers { date: 'Thu, 10 Aug 2017 15:46:52 GMT',
+167 verbose headers   via: '1.1 varnish',
+167 verbose headers   'cache-control': 'max-age=300',
+167 verbose headers   etag: 'W/"5986db2b-3a90"',
+167 verbose headers   age: '204',
+167 verbose headers   connection: 'keep-alive',
+167 verbose headers   'x-served-by': 'cache-ord1722-ORD',
+167 verbose headers   'x-cache': 'HIT',
+167 verbose headers   'x-cache-hits': '1',
+167 verbose headers   'x-timer': 'S1502380012.285302,VS0,VE1',
+167 verbose headers   vary: 'Accept-Encoding, Accept' }
+168 silly get cb [ 304,
+168 silly get   { date: 'Thu, 10 Aug 2017 15:46:52 GMT',
+168 silly get     via: '1.1 varnish',
+168 silly get     'cache-control': 'max-age=300',
+168 silly get     etag: 'W/"5986db2b-3a90"',
+168 silly get     age: '204',
+168 silly get     connection: 'keep-alive',
+168 silly get     'x-served-by': 'cache-ord1722-ORD',
+168 silly get     'x-cache': 'HIT',
+168 silly get     'x-cache-hits': '1',
+168 silly get     'x-timer': 'S1502380012.285302,VS0,VE1',
+168 silly get     vary: 'Accept-Encoding, Accept' } ]
+169 verbose etag https://registry.npmjs.org/heroku from cache
+170 verbose get saving heroku to /home/ubuntu/.npm/registry.npmjs.org/heroku/.cache.json
+171 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
+172 silly addNameTag next cb for heroku with tag latest
+173 silly addNamed heroku@0.2.0
+174 verbose addNamed "0.2.0" is a plain semver version for heroku
+175 silly cache afterAdd heroku@0.2.0
+176 verbose afterAdd /home/ubuntu/.npm/heroku/0.2.0/package/package.json not in flight; writing
+177 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
+178 verbose afterAdd /home/ubuntu/.npm/heroku/0.2.0/package/package.json written
+179 http 404 https://registry.npmjs.org/Toolbelt
+180 verbose headers { 'content-type': 'application/json',
+180 verbose headers   'cache-control': 'max-age=0',
+180 verbose headers   'content-length': '2',
+180 verbose headers   'accept-ranges': 'bytes',
+180 verbose headers   date: 'Thu, 10 Aug 2017 15:46:52 GMT',
+180 verbose headers   via: '1.1 varnish',
+180 verbose headers   age: '0',
+180 verbose headers   connection: 'keep-alive',
+180 verbose headers   'x-served-by': 'cache-ord1740-ORD',
+180 verbose headers   'x-cache': 'MISS',
+180 verbose headers   'x-cache-hits': '0',
+180 verbose headers   'x-timer': 'S1502380012.281624,VS0,VE198',
+180 verbose headers   vary: 'Accept-Encoding' }
+181 silly get cb [ 404,
+181 silly get   { 'content-type': 'application/json',
+181 silly get     'cache-control': 'max-age=0',
+181 silly get     'content-length': '2',
+181 silly get     'accept-ranges': 'bytes',
+181 silly get     date: 'Thu, 10 Aug 2017 15:46:52 GMT',
+181 silly get     via: '1.1 varnish',
+181 silly get     age: '0',
+181 silly get     connection: 'keep-alive',
+181 silly get     'x-served-by': 'cache-ord1740-ORD',
+181 silly get     'x-cache': 'MISS',
+181 silly get     'x-cache-hits': '0',
+181 silly get     'x-timer': 'S1502380012.281624,VS0,VE198',
+181 silly get     vary: 'Accept-Encoding' } ]
+182 verbose stack Error: Registry returned 404 for GET on https://registry.npmjs.org/Toolbelt
+182 verbose stack     at makeError (/home/ubuntu/.nvm/versions/node/v4.6.1/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+182 verbose stack     at CachingRegistryClient.<anonymous> (/home/ubuntu/.nvm/versions/node/v4.6.1/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:242:14)
+182 verbose stack     at Request._callback (/home/ubuntu/.nvm/versions/node/v4.6.1/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+182 verbose stack     at Request.self.callback (/home/ubuntu/.nvm/versions/node/v4.6.1/lib/node_modules/npm/node_modules/request/request.js:200:22)
+182 verbose stack     at emitTwo (events.js:87:13)
+182 verbose stack     at Request.emit (events.js:172:7)
+182 verbose stack     at Request.<anonymous> (/home/ubuntu/.nvm/versions/node/v4.6.1/lib/node_modules/npm/node_modules/request/request.js:1067:10)
+182 verbose stack     at emitOne (events.js:82:20)
+182 verbose stack     at Request.emit (events.js:169:7)
+182 verbose stack     at IncomingMessage.<anonymous> (/home/ubuntu/.nvm/versions/node/v4.6.1/lib/node_modules/npm/node_modules/request/request.js:988:12)
+183 verbose statusCode 404
+184 verbose pkgid Toolbelt
+185 verbose cwd /home/ubuntu/workspace/todo-list
+186 error Linux 4.9.17-c9
+187 error argv "/home/ubuntu/.nvm/versions/node/v4.6.1/bin/node" "/home/ubuntu/.nvm/versions/node/v4.6.1/bin/npm" "install" "heroku" "Toolbelt"
+188 error node v4.6.1
+189 error npm  v2.15.9
+190 error code E404
+191 error 404 Registry returned 404 for GET on https://registry.npmjs.org/Toolbelt
+191 error 404
+191 error 404 'Toolbelt' is not in the npm registry.
+191 error 404 Your package name is not valid, because
+191 error 404
+191 error 404  1. name can no longer contain capital letters
+191 error 404 It was specified as a dependency of 'todo-list'
+191 error 404
+191 error 404 Note that you can also install from a
+191 error 404 tarball, folder, http url, or git url.
+192 verbose exit [ 1, true ]
