@@ -43,6 +43,9 @@ input:focus {
 input::placeholder {
     color: $tertiary-color;
 }
+li.checked .text {		
+   text-decoration: line-through;		
+ }
 ul {
     list-style:none;
     background: #fff;
