@@ -2,8 +2,7 @@
 1 verbose cli [ '/home/ubuntu/.nvm/versions/node/v4.6.1/bin/node',
 1 verbose cli   '/home/ubuntu/.nvm/versions/node/v4.6.1/bin/npm',
 1 verbose cli   'install',
-1 verbose cli   'heroku',
-1 verbose cli   'Toolbelt' ]
+1 verbose cli   'bcrypt' ]
 2 info using npm@2.15.9
 3 info using node@v4.6.1
 4 verbose install initial load of /home/ubuntu/workspace/todo-list/package.json
@@ -123,164 +122,73 @@
 118 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/todo-list/node_modules/wrappy/package.json
 119 info package.json bcrypt-pbkdf@1.0.1 No repository field.
 120 info package.json extsprintf@1.0.2 No license field.
-121 info package.json json-schema@0.2.3 No license field.
-122 info package.json jsonify@0.0.0 license should be a valid SPDX license expression
-123 info package.json ms@0.7.1 No license field.
-124 info package.json punycode@1.4.1 punycode is also the name of a node core module.
-125 info package.json sntp@1.0.9 No license field.
-126 info package.json string_decoder@1.0.3 string_decoder is also the name of a node core module.
-127 info package.json verror@1.3.6 No license field.
-128 info package.json heroku@0.2.0 No license field.
+121 info package.json heroku@0.2.0 No license field.
+122 info package.json json-schema@0.2.3 No license field.
+123 info package.json jsonify@0.0.0 license should be a valid SPDX license expression
+124 info package.json ms@0.7.1 No license field.
+125 info package.json punycode@1.4.1 punycode is also the name of a node core module.
+126 info package.json sntp@1.0.9 No license field.
+127 info package.json string_decoder@1.0.3 string_decoder is also the name of a node core module.
+128 info package.json verror@1.3.6 No license field.
 129 verbose readDependencies loading dependencies from /home/ubuntu/workspace/todo-list/package.json
-130 verbose install heroku is installed as 0.2.0
-131 silly cache add args [ 'heroku', null ]
-132 verbose cache add spec heroku
-133 silly cache add args [ 'Toolbelt', null ]
-134 verbose cache add spec Toolbelt
-135 silly cache add parsed spec Result {
-135 silly cache add   raw: 'heroku',
-135 silly cache add   scope: null,
-135 silly cache add   name: 'heroku',
-135 silly cache add   rawSpec: '',
-135 silly cache add   spec: 'latest',
-135 silly cache add   type: 'tag' }
-136 silly addNamed heroku@latest
-137 verbose addNamed "latest" is being treated as a dist-tag for heroku
-138 info addNameTag [ 'heroku', 'latest' ]
-139 silly mapToRegistry name heroku
-140 silly mapToRegistry using default registry
-141 silly mapToRegistry registry https://registry.npmjs.org/
-142 silly mapToRegistry data Result {
-142 silly mapToRegistry   raw: 'heroku',
-142 silly mapToRegistry   scope: null,
-142 silly mapToRegistry   name: 'heroku',
-142 silly mapToRegistry   rawSpec: '',
-142 silly mapToRegistry   spec: 'latest',
-142 silly mapToRegistry   type: 'tag' }
-143 silly mapToRegistry uri https://registry.npmjs.org/heroku
-144 verbose addNameTag registry:https://registry.npmjs.org/heroku not in flight; fetching
-145 silly cache add parsed spec Result {
-145 silly cache add   raw: 'Toolbelt',
-145 silly cache add   scope: null,
-145 silly cache add   name: 'Toolbelt',
-145 silly cache add   rawSpec: '',
-145 silly cache add   spec: 'latest',
-145 silly cache add   type: 'tag' }
-146 silly addNamed Toolbelt@latest
-147 verbose addNamed "latest" is being treated as a dist-tag for Toolbelt
-148 info addNameTag [ 'Toolbelt', 'latest' ]
-149 silly mapToRegistry name Toolbelt
-150 silly mapToRegistry using default registry
-151 silly mapToRegistry registry https://registry.npmjs.org/
-152 silly mapToRegistry data Result {
-152 silly mapToRegistry   raw: 'Toolbelt',
-152 silly mapToRegistry   scope: null,
-152 silly mapToRegistry   name: 'Toolbelt',
-152 silly mapToRegistry   rawSpec: '',
-152 silly mapToRegistry   spec: 'latest',
-152 silly mapToRegistry   type: 'tag' }
-153 silly mapToRegistry uri https://registry.npmjs.org/Toolbelt
-154 verbose addNameTag registry:https://registry.npmjs.org/Toolbelt not in flight; fetching
-155 verbose request uri https://registry.npmjs.org/Toolbelt
-156 verbose request no auth needed
-157 info attempt registry request try #1 at 3:46:52 PM
-158 verbose request id 3f0b48514ce86d80
-159 http request GET https://registry.npmjs.org/Toolbelt
-160 verbose request uri https://registry.npmjs.org/heroku
-161 verbose request no auth needed
-162 info attempt registry request try #1 at 3:46:52 PM
-163 verbose etag W/"5986db2b-3a90"
-164 verbose lastModified Sun, 06 Aug 2017 09:02:35 GMT
-165 http request GET https://registry.npmjs.org/heroku
-166 http 304 https://registry.npmjs.org/heroku
-167 verbose headers { date: 'Thu, 10 Aug 2017 15:46:52 GMT',
-167 verbose headers   via: '1.1 varnish',
-167 verbose headers   'cache-control': 'max-age=300',
-167 verbose headers   etag: 'W/"5986db2b-3a90"',
-167 verbose headers   age: '204',
-167 verbose headers   connection: 'keep-alive',
-167 verbose headers   'x-served-by': 'cache-ord1722-ORD',
-167 verbose headers   'x-cache': 'HIT',
-167 verbose headers   'x-cache-hits': '1',
-167 verbose headers   'x-timer': 'S1502380012.285302,VS0,VE1',
-167 verbose headers   vary: 'Accept-Encoding, Accept' }
-168 silly get cb [ 304,
-168 silly get   { date: 'Thu, 10 Aug 2017 15:46:52 GMT',
-168 silly get     via: '1.1 varnish',
-168 silly get     'cache-control': 'max-age=300',
-168 silly get     etag: 'W/"5986db2b-3a90"',
-168 silly get     age: '204',
-168 silly get     connection: 'keep-alive',
-168 silly get     'x-served-by': 'cache-ord1722-ORD',
-168 silly get     'x-cache': 'HIT',
-168 silly get     'x-cache-hits': '1',
-168 silly get     'x-timer': 'S1502380012.285302,VS0,VE1',
-168 silly get     vary: 'Accept-Encoding, Accept' } ]
-169 verbose etag https://registry.npmjs.org/heroku from cache
-170 verbose get saving heroku to /home/ubuntu/.npm/registry.npmjs.org/heroku/.cache.json
-171 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
-172 silly addNameTag next cb for heroku with tag latest
-173 silly addNamed heroku@0.2.0
-174 verbose addNamed "0.2.0" is a plain semver version for heroku
-175 silly cache afterAdd heroku@0.2.0
-176 verbose afterAdd /home/ubuntu/.npm/heroku/0.2.0/package/package.json not in flight; writing
-177 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
-178 verbose afterAdd /home/ubuntu/.npm/heroku/0.2.0/package/package.json written
-179 http 404 https://registry.npmjs.org/Toolbelt
-180 verbose headers { 'content-type': 'application/json',
-180 verbose headers   'cache-control': 'max-age=0',
-180 verbose headers   'content-length': '2',
-180 verbose headers   'accept-ranges': 'bytes',
-180 verbose headers   date: 'Thu, 10 Aug 2017 15:46:52 GMT',
-180 verbose headers   via: '1.1 varnish',
-180 verbose headers   age: '0',
-180 verbose headers   connection: 'keep-alive',
-180 verbose headers   'x-served-by': 'cache-ord1740-ORD',
-180 verbose headers   'x-cache': 'MISS',
-180 verbose headers   'x-cache-hits': '0',
-180 verbose headers   'x-timer': 'S1502380012.281624,VS0,VE198',
-180 verbose headers   vary: 'Accept-Encoding' }
-181 silly get cb [ 404,
-181 silly get   { 'content-type': 'application/json',
-181 silly get     'cache-control': 'max-age=0',
-181 silly get     'content-length': '2',
-181 silly get     'accept-ranges': 'bytes',
-181 silly get     date: 'Thu, 10 Aug 2017 15:46:52 GMT',
-181 silly get     via: '1.1 varnish',
-181 silly get     age: '0',
-181 silly get     connection: 'keep-alive',
-181 silly get     'x-served-by': 'cache-ord1740-ORD',
-181 silly get     'x-cache': 'MISS',
-181 silly get     'x-cache-hits': '0',
-181 silly get     'x-timer': 'S1502380012.281624,VS0,VE198',
-181 silly get     vary: 'Accept-Encoding' } ]
-182 verbose stack Error: Registry returned 404 for GET on https://registry.npmjs.org/Toolbelt
-182 verbose stack     at makeError (/home/ubuntu/.nvm/versions/node/v4.6.1/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
-182 verbose stack     at CachingRegistryClient.<anonymous> (/home/ubuntu/.nvm/versions/node/v4.6.1/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:242:14)
-182 verbose stack     at Request._callback (/home/ubuntu/.nvm/versions/node/v4.6.1/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
-182 verbose stack     at Request.self.callback (/home/ubuntu/.nvm/versions/node/v4.6.1/lib/node_modules/npm/node_modules/request/request.js:200:22)
-182 verbose stack     at emitTwo (events.js:87:13)
-182 verbose stack     at Request.emit (events.js:172:7)
-182 verbose stack     at Request.<anonymous> (/home/ubuntu/.nvm/versions/node/v4.6.1/lib/node_modules/npm/node_modules/request/request.js:1067:10)
-182 verbose stack     at emitOne (events.js:82:20)
-182 verbose stack     at Request.emit (events.js:169:7)
-182 verbose stack     at IncomingMessage.<anonymous> (/home/ubuntu/.nvm/versions/node/v4.6.1/lib/node_modules/npm/node_modules/request/request.js:988:12)
-183 verbose statusCode 404
-184 verbose pkgid Toolbelt
-185 verbose cwd /home/ubuntu/workspace/todo-list
-186 error Linux 4.9.17-c9
-187 error argv "/home/ubuntu/.nvm/versions/node/v4.6.1/bin/node" "/home/ubuntu/.nvm/versions/node/v4.6.1/bin/npm" "install" "heroku" "Toolbelt"
-188 error node v4.6.1
-189 error npm  v2.15.9
-190 error code E404
-191 error 404 Registry returned 404 for GET on https://registry.npmjs.org/Toolbelt
-191 error 404
-191 error 404 'Toolbelt' is not in the npm registry.
-191 error 404 Your package name is not valid, because
-191 error 404
-191 error 404  1. name can no longer contain capital letters
-191 error 404 It was specified as a dependency of 'todo-list'
-191 error 404
-191 error 404 Note that you can also install from a
-191 error 404 tarball, folder, http url, or git url.
-192 verbose exit [ 1, true ]
+130 verbose install bcrypt is installed as 1.0.2
+131 silly cache add args [ 'bcrypt@^1.0.2', null ]
+132 verbose cache add spec bcrypt@^1.0.2
+133 silly cache add parsed spec Result {
+133 silly cache add   raw: 'bcrypt@^1.0.2',
+133 silly cache add   scope: null,
+133 silly cache add   name: 'bcrypt',
+133 silly cache add   rawSpec: '^1.0.2',
+133 silly cache add   spec: '>=1.0.2 <2.0.0',
+133 silly cache add   type: 'range' }
+134 silly addNamed bcrypt@>=1.0.2 <2.0.0
+135 verbose addNamed ">=1.0.2 <2.0.0" is a valid semver range for bcrypt
+136 silly addNameRange { name: 'bcrypt', range: '>=1.0.2 <2.0.0', hasData: false }
+137 silly mapToRegistry name bcrypt
+138 silly mapToRegistry using default registry
+139 silly mapToRegistry registry https://registry.npmjs.org/
+140 silly mapToRegistry data Result {
+140 silly mapToRegistry   raw: 'bcrypt',
+140 silly mapToRegistry   scope: null,
+140 silly mapToRegistry   name: 'bcrypt',
+140 silly mapToRegistry   rawSpec: '',
+140 silly mapToRegistry   spec: 'latest',
+140 silly mapToRegistry   type: 'tag' }
+141 silly mapToRegistry uri https://registry.npmjs.org/bcrypt
+142 verbose addNameRange registry:https://registry.npmjs.org/bcrypt not in flight; fetching
+143 verbose request uri https://registry.npmjs.org/bcrypt
+144 verbose request no auth needed
+145 info attempt registry request try #1 at 5:27:26 PM
+146 verbose request id c3f71fe7504286d5
+147 http request GET https://registry.npmjs.org/bcrypt
+148 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=Hostname/IP doesn't match certificate's altnames: "Host: registry.npmjs.org. is not in the cert's altnames: DNS:*.c9users.io"
+149 info attempt registry request try #2 at 5:27:36 PM
+150 http request GET https://registry.npmjs.org/bcrypt
+151 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=Hostname/IP doesn't match certificate's altnames: "Host: registry.npmjs.org. is not in the cert's altnames: DNS:*.c9users.io"
+152 info attempt registry request try #3 at 5:28:36 PM
+153 http request GET https://registry.npmjs.org/bcrypt
+154 verbose stack Error: tunneling socket could not be established, cause=Hostname/IP doesn't match certificate's altnames: "Host: registry.npmjs.org. is not in the cert's altnames: DNS:*.c9users.io"
+154 verbose stack     at ClientRequest.onError (/home/ubuntu/.nvm/versions/node/v4.6.1/lib/node_modules/npm/node_modules/request/node_modules/tunnel-agent/index.js:176:17)
+154 verbose stack     at ClientRequest.g (events.js:260:16)
+154 verbose stack     at emitOne (events.js:77:13)
+154 verbose stack     at ClientRequest.emit (events.js:169:7)
+154 verbose stack     at TLSSocket.socketErrorListener (_http_client.js:269:9)
+154 verbose stack     at emitOne (events.js:77:13)
+154 verbose stack     at TLSSocket.emit (events.js:169:7)
+154 verbose stack     at emitErrorNT (net.js:1269:8)
+154 verbose stack     at nextTickCallbackWith2Args (node.js:442:9)
+154 verbose stack     at process._tickCallback (node.js:356:17)
+155 verbose cwd /home/ubuntu/workspace/todo-list
+156 error Linux 4.9.17-c9
+157 error argv "/home/ubuntu/.nvm/versions/node/v4.6.1/bin/node" "/home/ubuntu/.nvm/versions/node/v4.6.1/bin/npm" "install" "bcrypt"
+158 error node v4.6.1
+159 error npm  v2.15.9
+160 error code ECONNRESET
+161 error network tunneling socket could not be established, cause=Hostname/IP doesn't match certificate's altnames: "Host: registry.npmjs.org. is not in the cert's altnames: DNS:*.c9users.io"
+161 error network This is most likely not a problem with npm itself
+161 error network and is related to network connectivity.
+161 error network In most cases you are behind a proxy or have bad network settings.
+161 error network
+161 error network If you are behind a proxy, please make sure that the
+161 error network 'proxy' config is set properly.  See: 'npm help config'
+162 verbose exit [ 1, true ]
